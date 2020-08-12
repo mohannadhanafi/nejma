@@ -1,0 +1,57 @@
+.talent-card {
+  width: 200px;
+  font-weight: 800;
+  position: relative;
+
+  & img {
+    width: 100%;
+    border-radius: 25px;
+  }
+  & .talent-name {
+    color: black;
+  }
+  .talent-cost {
+    font-size: 14px;
+    border-radius: 30px;
+    color: white;
+    background: #eb2a74;
+    padding: 5px 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    direction: ltr;
+  }
+
+  .talent-meta {
+    width: 80%;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    font-size: 16px;
+    box-shadow: 0 2px 20px 0 rgba($color: #08091e, $alpha: 0.2);
+
+    &-en {
+      left: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 10px;
+      text-align: left;
+    }
+
+    & .talent-category {
+      font-size: 12px;
+      color: #8f9094;
+    }
+  }
+}
+
+.not-selected {
+  display: none !important;
+}

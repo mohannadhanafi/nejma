@@ -1,0 +1,125 @@
+.form-section-wrapper-book {
+  box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+  border-radius: 60px;
+  background-color: #ffffff;
+  margin: 7rem auto;
+  padding: 180px 3rem;
+  max-width: 1213px;
+  padding-bottom: 180px;
+  margin-top: 156px;
+  padding-top: 291px;
+  padding-bottom: 179px;
+  @media (max-width: 1200px) {
+    margin: 100px 0;
+    // padding: 13rem 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  @media (max-width: 680px) {
+    // padding: 179px 0rem;
+  }
+}
+
+.booking-container {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+}
+
+.booking-wrapper {
+  margin-top: 70px;
+
+  @media (max-width: 680px) {
+    margin-top: 61px;
+  }
+}
+
+.pink-background {
+  width: 100%;
+  background-color: #eb2a74;
+  border-radius: 350px 0 0 0;
+  min-height: 100%;
+  top: 309px;
+  min-width: 100%;
+  position: absolute;
+  z-index: -1;
+  @media (max-width: 1080px) {
+    border-radius: 35px 35px 0 0;
+    top: 260px;
+  }
+}
+
+.form-section-unit {
+  margin: 3rem;
+  display: flex;
+  min-height: 15rem;
+
+  @media (max-width: 1080px) {
+    margin: 1rem 0rem;
+  }
+
+  .pink-side {
+    width: 0.5rem;
+    border-radius: 20px;
+    background-color: #ff86b4;
+    @media (max-width: 1080px) {
+      border-radius: 0 20px 20px 0;
+    }
+  }
+
+  .unit-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // padding: 0.5rem 9rem;
+    margin-top: 0.7rem;
+
+    flex: 1;
+    margin: 0.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 1080px) {
+      flex-direction: column;
+      margin: 0.5rem 0.5rem;
+      padding: 0.5rem 0rem;
+    }
+
+    & > div {
+      padding: 0 0.3rem;
+      flex: 0.8;
+      // background-color: #dd4d;
+    }
+
+    & > div:nth-child(odd) {
+      // margin-right: 2rem;
+    }
+
+    .unit-left-side {
+      // background-color: #ddd;
+    }
+  }
+}
+
+.confirm {
+  margin: 1rem 19rem;
+}
+
+.credit-btn-wrapper {
+  margin: 1rem auto;
+  max-width: 587px;
+  margin-top: 2rem;
+}
+
+.no--padding {
+  padding: 292px 0;
+  padding-bottom: 80px;
+
+  @media (max-width: 680px) {
+    padding: 200px 0;
+    padding-bottom: 80px;
+  }
+}

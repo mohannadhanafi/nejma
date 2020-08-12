@@ -1,0 +1,85 @@
+.form-input {
+    position: relative;
+    & .form-label {
+        font-weight: 700;
+        color: #08091e;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    & .mobile-input {
+        font-family: Montserrat;
+
+        &-ar {
+            font-family: cairo;
+        }
+
+        & > input {
+            border: none;
+            outline: none;
+            font-weight: 600;
+            font-family: inherit;
+        }
+        &.PhoneInput--focus {
+            & .PhoneInputInput {
+                font-weight: 600;
+                font-family: inherit;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    & .form-field {
+        margin-top: 10px;
+        width: 100%;
+        box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -webkit-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -moz-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -webkit-appearance: none;
+        border-radius: 30px;
+        padding: 15px 30px;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        color: #08091e;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    & .input-filed-forget-password {
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+        bottom: -25px;
+        font-weight: bold;
+        color: black;
+        font-size: 12px;
+    }
+    & .left-forget-password {
+        right: unset !important;
+        left: 0;
+    }
+    ::placeholder {
+        font-size: 14px;
+        font-weight: 700;
+        color: #8f9094;
+        font-family: inherit;
+    }
+}
+
+.ant-form-item-explain {
+    padding-left: 30px;
+    margin-top: 5px;
+    padding-top: 21px;
+    font-weight: 600;
+    min-height: 12px;
+}
+
+.ant-row .ant-form-item {
+    margin-bottom: 25px;
+}
+
+.form-submit-btn {
+    margin-top: 25px;
+}

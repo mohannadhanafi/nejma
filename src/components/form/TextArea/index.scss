@@ -1,0 +1,27 @@
+.form-input {
+  // margin-top: 25px;
+  & .form-label {
+    font-weight: 700;
+    color: #08091e;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  & .form-text-field {
+    margin-top: 7px;
+    width: 100%;
+    box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -webkit-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -moz-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -webkit-appearance: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #08091e;
+    outline: none;
+    box-sizing: border-box;
+    min-height: 150px;
+  }
+}

@@ -1,0 +1,115 @@
+.bank-preview-wrapper {
+  & .account-info-wrapper {
+    margin-top: 45px;
+    display: flex;
+    min-height: 20vh;
+    // max-width: 418px;
+
+    & .info-rows-wrapper {
+      width: 90%;
+
+      :first-child {
+        margin-top: 0;
+      }
+
+      :last-child {
+        margin-bottom: 0.5rem;
+      }
+    }
+    & .pink-side {
+      width: 10px;
+      border-radius: 10px;
+      margin-right: 25px;
+      margin-left: 25px;
+      background-color: #ff86b4;
+    }
+
+    & .info-row {
+      margin-top: 25px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      //   max-width: 418px;
+      font-size: 16px;
+      color: #fff;
+      font-weight: bold;
+
+      & .left-info {
+        opacity: 0.6;
+      }
+
+      & .right-info {
+        color: #fff;
+        width: 42%;
+      }
+    }
+  }
+
+  & h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .edit-btn {
+    cursor: pointer;
+    right: 104px;
+    height: 60px;
+    width: 169px;
+    border-radius: 80px;
+    background-color: #fff;
+    color: #98a1a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+    & h5 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #98a1a4;
+      font-weight: 600;
+    }
+
+    & img {
+      width: 16px;
+      height: 16px;
+      margin-right: 1rem;
+    }
+  }
+
+  & .bank-preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  & .bank-preview-header {
+    padding: 0 30px;
+  }
+
+  & .bank-preview-wrapper {
+    & .edit-btn {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+
+      & img {
+        margin: 0;
+      }
+      & h5 {
+        display: none;
+      }
+    }
+
+    & .account-info-wrapper {
+      & .pink-side {
+        border-radius: 0 20px 20px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.menu {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  background-color: #eb2a74;
+  z-index: 3;
+  transform: translateX(-100%);
+  transition: transform 0.5s 0s ease-in;
+  &-active {
+    transform: translateX(0);
+  }
+
+  & .profile-image {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    & .picture-container {
+      width: 100%;
+      text-align: center;
+    }
+    & .customer-pic {
+      border-radius: 250px;
+      height: 100px;
+      width: 100px;
+    }
+    & p {
+      width: 100%;
+      display: block;
+      text-align: center;
+
+      &:first-child {
+        font-size: 30px;
+        margin-bottom: 0;
+      }
+      &:last-child {
+        font-size: 16px;
+        margin-top: -10px;
+      }
+    }
+  }
+
+  & .menu-btns-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    & .signup-btn,
+    & .login-btn {
+      font-weight: 700;
+      font-size: 18px;
+      color: black;
+      height: 53px;
+      width: 95%;
+      border-radius: 30px;
+      margin: 0 auto;
+      margin-top: 10px;
+      border: 0;
+    }
+    & .signup-btn {
+      margin-bottom: 20px;
+    }
+  }
+
+  & .navigation-container {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    & div {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      color: white;
+      & img {
+        width: 30px;
+        height: 30px;
+        margin: 0 20px;
+      }
+    }
+  }
+  & .logout-btn-conatiner {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    & .logout-btn {
+      border-radius: 30px;
+      background: white;
+      color: #08091e;
+      font-size: 14px;
+      width: 95%;
+      height: 100%;
+      margin: 20px auto;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    & .logout-icon {
+      font-weight: bold;
+      font-size: 18px;
+      color: #eb2a74;
+    }
+  }
+}

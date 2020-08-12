@@ -1,0 +1,166 @@
+.success-wrapper {
+  max-width: 760px;
+  margin: 1.5rem auto;
+  padding-top: 15%;
+  position: relative;
+  min-height: 100vh;
+
+  @media (max-width: 675px) {
+    padding-top: 19vw;
+
+    //   max-width: 324px;
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+  }
+
+  .-btn {
+    background-color: #eb2a74;
+    max-width: 587px;
+    margin: 5rem auto;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.what-next {
+  margin-top: 1.5rem;
+}
+
+.success-hero-img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+
+.what-next-wrapper {
+  max-width: 530px;
+  margin: 1rem auto;
+  text-align: center;
+
+
+  & * {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .waht-next-unit {
+    text-align: left;
+    margin-top: 3rem;
+    display: flex;
+    line-height: 1rem;
+    align-items: center;
+
+    @media (max-width: 680px) {
+      line-height: 14px;
+    }
+
+    & img {
+      height: 47px;
+      width: auto;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      //   padding-top: 0.4rem;
+    }
+
+    span {
+      font-weight: bold;
+      color: #8f9094;
+      font-size: 13px;
+      margin-right: 3px;
+    }
+
+    .dark-ref-words {
+      color: #08091e;
+    }
+  }
+
+  &-ar {
+    & .waht-next-unit {
+      text-align: right;
+    }
+  }
+}
+
+.what-next-units-wrapper {
+  max-width: 482px;
+  margin: 1rem auto;
+}
+
+.thank-message {
+  width: 90%;
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 600;
+  @media (max-width: 675px) {
+    width: 100%;
+  }
+
+  .dark-ref-words {
+    color: #08091e;
+    width: 100%;
+  }
+
+  & span {
+    color: #8f9094;
+    font-weight: 600;
+  }
+
+  & h5 {
+    margin-top: 103px;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    @media (max-width: 680px) {
+      margin-top: 76px;
+    }
+  }
+}
+
+.success-hero-title {
+  color: #08091e;
+  max-width: 324px;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 1rem auto;
+  text-align: center;
+
+  @media (max-width: 675px) {
+    font-size: 24.5px;
+    top: -130px;
+
+    //   max-width: 324px;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 20.5px;
+    top: -120px;
+
+    //   max-width: 324px;
+  }
+}
+
+.success-hero-wrapper {
+  h5 {
+    margin: 0;
+  }
+
+  max-width: 760px;
+  position: relative;
+  margin: 1rem auto;
+  padding-bottom: 20vh;
+}
+
+.success-body-wrapper {
+  position: relative;
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,236 @@
+.first-section {
+  overflow: visible;
+  min-height: 550px;
+  background-color: #f2f0f0;
+  border-radius: 30px;
+  margin: 50px 0 100px;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  & .hero-section-btn {
+    box-shadow: none !important;
+  }
+  & .left-side {
+    width: 59%;
+    & .logo-background-img {
+      width: 550px;
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+    }
+    & .celebrity-imgs-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      & .first-celebrit-images-row,
+      & .second-celebrit-images-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+    }
+    & .celebrity-image {
+      border-radius: 20px;
+      margin: 20px;
+      box-shadow: 0 10px 60px 0 rgba(12, 12, 14, 0.3);
+      width: 150px;
+      &:nth-child(1),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(6) {
+        position: relative;
+        top: -70px;
+      }
+    }
+  }
+  & .right-side {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 40%;
+    &-ar {
+      margin-right: 50px;
+    }
+    &-en {
+      margin-left: 50px;
+    }
+
+    & .para {
+      font-size: 40px;
+      color: #08091e;
+      font-family: inherit;
+      font-weight: 700;
+    }
+    & button {
+      width: 200px;
+      height: 53px;
+      margin-top: 25px;
+    }
+    & .para-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 1650px) {
+  .first-section {
+    & .left-side {
+      width: 59;
+      & .celebrity-image {
+        width: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .first-section {
+    & .left-side {
+      & .celebrity-image {
+        width: 125px;
+      }
+    }
+  }
+}
+@media (max-width: 1410px) {
+  .first-section {
+    & .left-side {
+      width: 55%;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .first-section {
+    & .right-side {
+      width: 35%;
+      display: flex;
+      justify-content: center;
+    }
+    & .left-side {
+      & .stars-image {
+        width: 550px;
+        top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .first-section {
+    background: rgb(242, 240, 240);
+    background: linear-gradient(360deg, rgba(242, 240, 240, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    margin-top: 80px;
+    & .right-side {
+      width: 25%;
+
+      & .para {
+        font-size: 30px;
+        color: #08091e;
+        font-family: inherit;
+      }
+    }
+    & .right-side-ar {
+      margin-left: 0;
+    }
+    & .right-side-en {
+      margin-right: 0;
+    }
+    & .left-side {
+      width: 55%;
+      & .logo-background-img {
+        width: 90%;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+      }
+      & .celebrity-image {
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .first-section {
+    margin-top: 80px;
+    & .right-side {
+      width: 100%;
+      order: 0;
+      margin: 0;
+      & .para {
+        font-size: 30px;
+        color: #08091e;
+        font-family: inherit;
+        text-align: center;
+      }
+      & button {
+        margin: 0 auto;
+      }
+    }
+    & .left-side {
+      width: 100%;
+      position: relative;
+      & .stars-image {
+        width: 95%;
+        top: 0;
+        left: 0;
+      }
+      & .celebrity-imgs-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      & .celebrity-image {
+        width: 25%;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  & .first-section {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 70px;
+    position: relative;
+    .left-side {
+      width: 100%;
+      & .second-celebrit-images-row {
+        display: none;
+        & img {
+          display: none;
+        }
+      }
+      & .celebrity-imgs-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 150%;
+      }
+      & .celebrity-image {
+        width: 100%;
+        margin: 0 10px;
+        height: 300px;
+      }
+    }
+    & .right-side {
+      width: 100%;
+      margin-bottom: 75px;
+      font-weight: 800;
+    }
+  }
+}

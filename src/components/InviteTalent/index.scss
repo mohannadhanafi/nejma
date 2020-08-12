@@ -1,0 +1,63 @@
+.invite--talent--wrapper {
+  background-image: url('../../assets/logoBackground.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  background-color: #F2F0F0;
+  padding: 70px 0;
+  & .invite--talent--wrapper__container {
+    // display: flex;
+    // justify-content: space-between;
+    & .content--text {
+      width: 35%;
+      & h3 {
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+      & p {
+        color: #8F9094;
+        font-size: 12px;
+      }
+    }
+    & .form {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      & .invite--talent--submit--btn {
+        width: 20%;
+        padding: 8px 0;
+        font-weight: 500;
+        cursor: pointer;
+        box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.2);
+        outline: none;
+        color: #ffffff;
+        border: none;
+        text-transform: uppercase;
+        border-radius: 70px;
+        font-family: inherit;
+        margin: 0 10px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      & .invite--talent--submit--input {
+        box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -webkit-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -moz-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+        -webkit-appearance: none;
+        border-radius: 30px;
+        padding: 8px 30px;
+        border: none;
+        color: #08091e;
+        outline: none;
+        box-sizing: border-box;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+      & .invite--talent--submit--input::placeholder {
+        font-size: 9px;
+        font-weight: 700;
+      }
+    }
+  }
+}

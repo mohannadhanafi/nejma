@@ -1,0 +1,83 @@
+.talent-general-shotouts {
+  margin-top: 90px;
+  padding-bottom: 150px;
+
+  & .embedded-video-talent-profile,
+  & .embedded-video-container {
+    height: 484px;
+    width: 32%;
+    & .talent--page--video {
+      width: 100%;
+    }
+  }
+
+
+  & .video-thumbnail-wrapper {
+    margin: 15px;
+
+    &:last-child, &:first-child {
+      margin: 15px 0;
+    }
+  }
+
+  & .video--content {
+    height: 100%;
+  }
+}
+
+.talent-general-shotouts .videos-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.videos--public--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  & .talent--page--video {
+    width: 32%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .talent-general-shotouts {
+    margin-top: 40px;
+    padding-bottom: 0;
+    & .videos--public--container {
+      & .embedded-video-container{
+        width: 47%;
+        margin-top: 30px;
+        & .video--content {
+          height: 100% !important;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .talent-general-shotouts {
+    & .videos--public--container {
+
+      & .embedded-video-container{
+        width: 95%;
+      }
+
+      & .embedded-video-container {
+        padding-top: 30px;
+      }
+      & .video-thumbnail-wrapper, & .embedded-video-container {
+        margin: 30px 0;
+        &:last-child, &:first-child {
+          margin: 0;
+        }
+      }
+    }
+
+  }
+}
+

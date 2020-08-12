@@ -1,0 +1,17 @@
+.profile-header__details__profileimg__talent {
+  width: 273px !important;
+  height: 405px !important;
+  border-radius: 10px !important;
+  margin-bottom: -22px;
+
+  @media (max-width: 680px) {
+    width: 130px !important;
+  }
+}
+
+.talent--name {
+  word-break: break-word;
+  @media (max-width: 450px) {
+    font-size: 15px !important;
+  }
+}

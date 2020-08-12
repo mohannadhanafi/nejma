@@ -1,0 +1,252 @@
+.form-control {
+  /* The container must be positioned relative: */
+  // margin-top: 25px;
+  & .form-label {
+    font-weight: 700;
+    color: #08091e;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  & .ant-select-selector {
+    min-height: 60px !important;
+  }
+
+  & .ant-select {
+    & .ant-select-selector {
+      margin-top: 10px;
+      height: 60px;
+      width: 100%;
+      -webkit-appearance: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      border: none;
+      outline: none;
+      box-sizing: border-box;
+      min-height: 60px !important;
+
+      box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1) !important;
+      -webkit-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1) !important;
+      -moz-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1) !important;
+
+      & input {
+        height: 100%;
+        font-weight: 700;
+        color: #000000;
+      }
+
+      & .ant-select-selection-item {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        color: #000000;
+        padding: 0 19px;
+
+      }
+
+      & .ant-select-selection-placeholder {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        color: black !important;
+      }
+      & .ant-select-selection-search-input {
+        color: black;
+      }
+    }
+
+    & .ant-select-selection-search {
+      display: flex;
+      align-items: center;
+    }
+    &-focused {
+      .ant-select-selection-search {
+        margin: 0 15px !important;
+      }
+    }
+
+  }
+
+  &.mutliple-select {
+    & .ant-select {
+      & .ant-select-selector {
+        border-radius: 30px;
+
+        width: 98%;
+        margin: 0 auto;
+        min-height: 60px;
+        height: auto;
+      }
+
+      & .ant-select-selection-search {
+        margin: 0 15px !important;
+      }
+
+      & .ant-select-selection-placeholder {
+        margin: 0 15px !important;
+      }
+
+      & .ant-select-selection-item {
+        margin: 2px 2px !important;
+        border-radius: 30px;
+        color: white;
+      }
+    }
+
+    & .form-field {
+      height: 60px;
+    }
+  }
+
+  & .form-field {
+    height: 60px;
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -webkit-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -moz-box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+    -webkit-appearance: none;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #08091e;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  position: absolute;
+  left: 50%;
+  width: 0px;
+  height: 0;
+  top: 93%;
+  z-index: -1;
+  /*hide original SELECT element: */
+}
+
+.select-selected {
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #8f9094;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 22px;
+  right: 26px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #8f9094 transparent transparent transparent;
+}
+
+.select-selected-ar::after {
+  position: absolute;
+  content: "";
+  top: 22px;
+  left: 26px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #8f9094 transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+  color: #8f9094;
+  padding: 15px 30px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-radius: 30px;
+  box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.1);
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8f9094;
+  font-family: inherit;
+}
+
+.form-section-title-social {
+  margin-top: 55px;
+  font-weight: 700;
+  color: #eb2a74;
+  line-height: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.form-submit-btn {
+  width: 100%;
+  padding: 15px 0;
+  // margin-top: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.2);
+  outline: none;
+}
+
+.ant-select-multiple .ant-select-selection-item-remove {
+  display: none;
+}
+
+.ant-select-multiple .ant-select-selection-item {
+  background: #eb2a74 !important;
+  color: #FFF;
+}
+
+.anticon-close {
+  color: #FFF !important;
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+.ant-select-multiple .ant-select-selector,
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector,
+.ant-select-focused.ant-select-single:not(.ant-select-customize-input)
+.ant-select-selector,
+.ant-select-focused.ant-select-multiple .ant-select-selector {
+  border: none !important;
+  //box-shadow: none !important;
+}

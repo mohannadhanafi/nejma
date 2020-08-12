@@ -1,0 +1,132 @@
+
+
+
+.talent-general-info {
+  margin-top: 150px;
+  width: 100%;
+  margin: 90px auto 0;
+  display: flex;
+  justify-content: space-between;
+
+  & .talent-general--card {
+    width: 33%;
+
+  }
+
+  & .charity-logo {
+    & img {
+      width: 250px;
+      height: 100px;
+    }
+  }
+}
+.cards-without-charity {
+  & .talent-general--card {
+    width: 48%;
+    justify-content: flex-start!important;
+  }
+}
+
+.talent-general-info .talent-general--card {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  height: 135px;
+  background-color: #ffffff;
+  padding: 25px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.talent-general--card .rate--value {
+  font-weight: 600;
+  font-size: 40px;
+
+  @media (max-width: 680px) {
+    font-size: 30px;
+  }
+}
+
+
+.talent-general--card .rate--stars {
+  padding-top: 14px;
+  font-size: 35px;
+
+}
+
+.talent-general--card .reviews--link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #8f9094;
+}
+
+.response--time--card {
+  display: flex !important;
+  align-items: center;
+}
+
+.response--time--card p {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.response--time--card p span {
+  color: #d8d8d8;
+}
+
+.talent-general--card .response--time--icon {
+  color: #eb2a74;
+  font-size: 50px;
+  margin-right: 35px;
+}
+
+.card-ml {
+  margin-right: 0 !important;
+  margin-left: 35px !important;
+}
+
+.card-mr {
+  margin-left: 0 !important;
+  margin-right: 53px !important;
+}
+
+
+@media (max-width: 1200px) {
+  .talent-general-info {
+    display: block;
+   & .talent-general--card {
+      width: 100% !important;
+      margin-top: 1rem;
+    }
+
+
+  }
+}
+
+
+@media (max-width: 1600px) {
+  .talent-general-info {
+    & .rate--value {
+      font-size: 35px;
+    }
+
+    & .rate--stars {
+      margin: 0 0px;
+
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .talent-general-info {
+    & .rate--value {
+      font-size: 30px;
+    }
+
+    & .rate--stars {
+      font-size: 28px;
+
+    }
+  }
+}

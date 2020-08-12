@@ -1,0 +1,74 @@
+.forget-password-wrapper {
+    padding: 20px 0 130px;
+    background-image: url("../../../assets/cropped-star-backgroud.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    font-family: inherit;
+}
+
+.main.forget-password-wrapper {
+    padding: 80px 0;
+}
+
+.forget-password-card-section-wrapper {
+    box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+    border-radius: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+    border-radius: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    height: 900px;
+    width: 40% !important;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 1000px !important;
+}
+
+.forget-password-btn {
+    margin-top: 25px !important;
+}
+.content--container {
+    width: 460px;
+
+    text-align: center;
+}
+
+.forget-password-card-section-wrapper h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.forget-password-card-section-wrapper p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .forget-password-card-section-wrapper {
+        width: 95% !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .forget-password-card-section-wrapper {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .forget-password-form {
+        width: 100%;
+    }
+    .content--container {
+        width: 90%;
+        text-align: center;
+    }
+    .forget-password-card-section-wrapper {
+        width: 95%;
+        font-size: 12px;
+    }
+}

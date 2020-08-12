@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"nejmafe2231e7f3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

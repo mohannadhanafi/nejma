@@ -1,0 +1,39 @@
+.radio-button {
+  //   padding-right: 1rem;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 3.5px solid #8f9094;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .check-icon {
+    width: 30%;
+    height: auto;
+  }
+
+  
+}
+
+.radio-checked {
+  background-color: #eb2a74;
+  border: 0px solid #8f9094;
+
+}
+.radio-btn-wrapper {
+  display: flex;
+
+  h5 {
+    margin: auto 0.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #08091e;
+  }
+}
+
+.btn-margin-bottom {
+  margin-bottom: 25px;
+}

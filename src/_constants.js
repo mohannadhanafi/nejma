@@ -1,0 +1,13 @@
+export const BASE_URL = 'http://54.146.127.225:7000';
+export const MAIN_ENDPOINT = BASE_URL + "/api/v1";
+export const GET_SOCIAL_MEDIA = "GET_SOCIAL_MEDIA";
+export const SET_TAGS = "SET_TAGS";
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const GET_LANGUAGES = "GET_LANGUAGES";
+export const GET_CHARITIES = "GET_CHARITIES";
+export const SET_USER = "SET_USER";
+export const LOGOUT = "LOGOUT";
+export const SET_LOADING = "SET_LOADING";
+export const GET_NOTIFICATIONS = "GET_NOTIFICATIONS";
+export const SET_NOTIFICATIONS_READ = "SET_NOTIFICATIONS_READ";
+export const ADD_NEW_NOTIFICATION = "ADD_NEW_NOTIFICATION";

@@ -1,0 +1,36 @@
+.review--card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #F2F0F0;
+  border-right: none;
+  border-left: none;
+  padding: 20px 0;
+  & .review--card--first--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 64%;
+    & .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    & .review--comment {
+      font-size: 16px;
+      color: #8F9094;
+    & .rate--second {
+      & .rate--value {
+          font-size: 16px;
+          color: #08091E;
+        }
+      }
+      & h5 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  & span {
+    font-size: 9px;
+    color: #8F9094;
+  }
+}

@@ -1,0 +1,36 @@
+.form-submit-btn {
+  width: 100%;
+  height: 60px;
+  padding: 15px 0;
+  // margin-top: 60px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+
+  outline: none;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 70px;
+  font-family: inherit;
+  margin-top: 25px;
+  & .nejma-spin {
+    & .ant-spin-dot-item {
+      background-color: white;
+    }
+  }
+  &:disabled {
+    filter: brightness(0.9);
+  }
+}
+
+.main-btn {
+  background-color: #eb2a74;
+}
+
+.hero-button {
+  margin-top: 30px;
+  padding: 8px 23px;
+  font-size: 18px;
+}

@@ -1,0 +1,86 @@
+.category--page--talent__card {
+  @media (max-width: 680px) {
+    margin: 0 15px 50px !important;
+  }
+}
+.category-thumbnail-wrapper {
+  position: relative;
+  min-width: 160px;
+  max-width: 150px;
+  margin: 15px 19px 80px;
+  margin: 15px 0;
+
+  @media (max-width: 376px) {
+    min-width: 145px;
+  }
+  & .celebrity-link {
+    text-decoration: none;
+    & .celebrity-image-wrapper {
+      height: 216px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 0 0px 10px 0 rgba(8, 9, 30, 0.12);
+      & .price-tag {
+        background-color: #eb2a74;
+        border-radius: 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+
+        text-align: center;
+        padding: 7px 0;
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        direction: ltr;
+        font-size: 14px;
+        padding: 5px 20px;
+      }
+      @media (max-width: 680px) {
+        // height: 330px;
+        height: 210px;
+      }
+      @media (max-width: 376px) {
+        // height: 330px;
+        height: 200px;
+      }
+    }
+
+    & .celebrity-details {
+      background-color: #ffffff;
+      padding: 15px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      box-shadow: 0 0px 10px 0 rgba(8, 9, 30, 0.2);
+      & .celebrity-name {
+        font-size: 16px;
+        font-weight: 700;
+        color: #08091e;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        white-space: nowrap;
+        line-height: 1.2;
+      }
+      & .celebrity-occupation {
+        font-size: 14px;
+        font-weight: 600;
+        color: #8f9094;
+      }
+    }
+  }
+}
+
+.favorites--customer {
+  margin: 0 auto 80px;
+  & .celebrity-image-wrapper {
+    height: 216px !important;
+  }
+  @media (max-width: 680px) {
+    margin-bottom: 50px !important;
+    width: 90%;
+  }
+}

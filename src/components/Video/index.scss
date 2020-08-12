@@ -1,0 +1,124 @@
+.video-thumbnail-wrapper {
+  width: 19rem;
+  margin: 0 auto 40px;
+  border-radius: 30px;
+  box-shadow: 0 2px 40px 0 rgba(8, 9, 30, 0.12);
+  border-radius: 30px;
+  background-color: #000;
+  & .video--content {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
+    border-radius: 30px 30px 0 0;
+    & .video--content__overlay {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 30px 30px 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 650px) {
+      height: 260px;
+    }
+    @media (max-width: 450px) {
+      height: 220px;
+    }
+  }
+  & .celebrity-details {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 40px 0 rgba(8, 9, 30, 0.2);
+    height: 85px;
+
+    @media (max-width: 680px) {
+      height: 70px;
+    }
+  }
+
+  & .not-seen {
+    background-color: #5feab2;
+    text-align: center;
+  }
+
+  & .rejected,
+  .Rejected {
+    background-color: #f8445e;
+    text-align: center;
+    & .celebrity-name {
+      color: #fff;
+    }
+    & .celebrity-occupation {
+      color: #fff;
+    }
+  }
+
+  & .Accepted,
+  .accepted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad3784;
+    color: #fff;
+    & .celebrity-name {
+      color: #ffffff;
+    }
+    & .celebrity-occupation {
+      color: #ad3784;
+    }
+  }
+  & .submitted,
+  .Submitted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b83ff;
+    & .celebrity-name {
+      color: #fff;
+      font-weight: bold;
+      font-size: 19px;
+    }
+    & .celebrity-occupation {
+      color: #2b83ff;
+    }
+  }
+  @media (max-width: 650px) {
+    width: 15rem;
+  }
+  @media (max-width: 550px) {
+    width: 13rem;
+  }
+  @media (max-width: 450px) {
+    width: 9rem;
+  }
+}
+
+.talent--page--video {
+  width: 95%;
+  border-radius: 30px;
+  max-width: 377px;
+  margin: 0.5rem;
+  & .video--content {
+    height: 600px;
+    border-radius: 30px;
+    & .video--content__overlay {
+      border-radius: 30px;
+    }
+  }
+  & .video--content {
+    @media (max-width: 800px) {
+      // height: 370px;
+    }
+    @media (max-width: 450px) {
+      height: 100vw;
+      // height: 200px;
+    }
+  }
+}

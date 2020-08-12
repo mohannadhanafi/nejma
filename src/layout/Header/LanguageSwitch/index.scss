@@ -1,0 +1,25 @@
+.language-switch {
+  margin: 0 auto;
+  color: #999;
+  font-weight: bold;
+  & > span {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  & .selected {
+    color: black;
+  }
+
+  & .separator {
+    cursor: default;
+    margin: 0 5px;
+    color: black;
+  }
+}
+
+.menu {
+  .language-switch {
+    color: #ffffff;
+  }
+}

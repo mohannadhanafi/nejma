@@ -1,0 +1,33 @@
+.form-input {
+  // margin-top: 25px;
+  // position: relative;
+
+  & .form-label {
+    font-weight: 700;
+    color: #08091e;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  & .radio-btn-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    & .radio-btn {
+      width: fit-content;
+      color: #88898f;
+      padding: 15px 20px;
+      font-size: 12px;
+      margin: 5px 5px;
+      text-transform: capitalize;
+      -webkit-transition: background-color 200ms linear, color 200ms linear;
+      -ms-transition: background-color 200ms linear, color 200ms linear;
+      transition: background-color 200ms linear, color 200ms linear;
+      display: flex;
+      align-items: center;
+      &.selected {
+        background-color: #eb2a74;
+        color: white;
+      }
+    }
+  }
+}

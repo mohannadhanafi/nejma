@@ -1,0 +1,49 @@
+.requests-wrapper {
+    margin: 10rem 272px;
+}
+.requests {
+    width: 100%;
+    margin-top: 50px;
+  & .upload-video-btn {
+    width: 100%;
+  }
+}
+.profile--no-requests {
+    display: flex;
+}
+
+.no-requests {
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & > p {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1000px) {
+    .requests-wrapper {
+        display: flex;
+        justify-content: stretch;
+        margin: 1.5rem 0 0 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .requests-wrapper {
+        .requests {
+            margin-top: 90px;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .requests-wrapper {
+        .requests {
+            margin-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.verify-wrapper {
+    padding: 70px 0 130px;
+    background-image: url('../../../assets/cropped-star-backgroud.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    font-family: inherit;
+  }
+
+.main.verify-wrapper {
+    padding: 80px 0;
+}
+
+.thank-you-card{
+  padding-top: 141px;
+}
+
+.thank-down-message{
+  color: #8F9094;
+  font-weight: bold;
+  font-size: 16px;
+
+  & p{
+    padding-top: 18px;
+  }
+}
+
+.card-section-wrapper1 {
+  box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+  border-radius: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+  border-radius: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  width: 65%;
+  margin: 0 auto;
+
+
+   
+  }
+
+  .content--container {
+    // width: 50% !important;
+    max-width: 457px;
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-section-wrapper1 h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.card-section-wrapper1 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  .verify-wrapper {
+  
+  padding-top: 85px;
+  }
+
+  .thank-you-card{
+    height: 380px;
+    padding: 119px 30px 119px 30px;
+  }
+
+}

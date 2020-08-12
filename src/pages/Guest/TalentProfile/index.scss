@@ -1,0 +1,171 @@
+// .talent-profile-wrapper .charity {
+//   margin-left: 400px;
+//   margin-top: 38px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+// }
+
+.talent-profile-wrapper {
+  position: relative;
+
+  & img.charity {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    right: 104px;
+    top: 500px;
+
+    &.ar {
+      right: auto;
+      left: 104px;
+    }
+  }
+
+  & .rate--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  & .rate--stars {
+    padding-top: 0;
+    margin: auto 20px;
+  }
+}
+
+.talent-details-down-wrapper {
+  padding: 0 115px;
+
+  & .book-btn-mobile {
+    cursor: pointer;
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: #eb2a74;
+    font-weight: bold;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+}
+
+.talent-general-info {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.talent-profile-wrapper .book-now-button {
+  text-transform: uppercase;
+  position: absolute;
+  // top: 550px;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  height: 60px;
+  width: 248px;
+  color: #fff;
+  background: #eb2a74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background: #eb2a74;
+    color: #fff;
+  }
+  &:active {
+    background: #eb2a74;
+    color: #fff;
+  }
+  &:focus {
+    background: #eb2a74;
+    color: #fff;
+  }
+}
+
+.talent-profile-wrapper .charity img {
+  width: 80px;
+}
+
+.charity-ar {
+  margin-left: 0;
+  margin-right: 400px;
+}
+
+.book-sm {
+  display: none;
+}
+
+.talent-profile-wrapper .book-sm {
+  display: none;
+}
+@media (max-width: 1470px) {
+  .talent-profile-wrapper .book-now-button {
+    display: none;
+  }
+  .talent-profile-wrapper .book-sm {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border-radius: 40px;
+  }
+  .talent-general-info {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .talent-details-down-wrapper {
+    padding: 0;
+
+    & .book-btn-mobile {
+      display: flex;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .talent-profile-wrapper .charity {
+    margin-left: 230px;
+    margin-top: 0;
+    display: block;
+  }
+  .charity-ar {
+    margin-left: 0;
+    margin-right: 230px;
+  }
+}
+
+@media (max-width: 430px) {
+  .talent-general-info .talent-general--card {
+    padding: 5px 30px;
+  }
+}
+@media (max-width: 382px) {
+  .rate--stars {
+    font-size: 27px !important;
+  }
+  .talent-general--card .rate--value {
+    font-size: 30px !important;
+  }
+
+  .talent-general--card {
+    & .rate--value {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .talent-profile-wrapper {
+    position: relative;
+    & img.charity {
+      display: none;
+    }
+  }
+}

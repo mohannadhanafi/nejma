@@ -1,0 +1,192 @@
+.card-name {
+  width: 455px;
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+}
+
+.card-datailes {
+  display: flex;
+  justify-content: space-between;
+
+  & .stripe-input {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .InputElement {
+      font-size: 26px;
+      font-weight: 600;
+    }
+  }
+
+  .validation-errors {
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+    animation: showSlow 0.5s;
+  }
+
+  @media (max-width: 1200px) {
+    display: block;
+    & .stripe-input {
+      width: 100%
+    }
+    & > div {
+      width: 100%;
+    }
+  }
+}
+
+.card-number {
+  width: 455px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  & > div {
+    wdith: 100%;
+  }
+}
+
+.card-ssl-wrapper {
+  width: 50%;
+}
+
+.card-date-wrapper {
+  width: 100%;
+  // padding-bottom : 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 1200px) {
+    display: block;
+
+    & > div {
+      width: 100%;
+    }
+  }
+}
+
+.card-date {
+  width: 45%;
+}
+
+.card-group-img {
+  width: 35%;
+  height: auto;
+  @media (max-width: 680px) {
+    width: 60%;
+  }
+}
+
+.card-group {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media (max-width: 680px) {
+    justify-content: center;
+  }
+}
+
+.secured-ssl-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  & h5 {
+    color: #8f9094;
+    font-size: 0.76rem;
+    margin: 0;
+    font-weight: 600;
+
+    @media (max-width: 680px) {
+      font-size: 0.72rem;
+    }
+  }
+}
+
+.ssl-img {
+  width: 18px;
+  height: auto;
+  margin: 0 1rem;
+
+  @media (max-width: 850px) {
+    margin: 0 0.3rem;
+  }
+}
+
+.ssl-img-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  @media (max-width: 850px) {
+    justify-content: flex-start;
+  }
+}
+
+.credit-btn-wrapper {
+  margin: 1rem auto;
+  max-width: 587px;
+  margin-top: 2rem;
+}
+
+.book-btn {
+  background-color: #eb2a74;
+}
+
+.credit-policy-info {
+  margin-top: 30px;
+  text-align: center;
+
+  & span {
+    font-size: 16px;
+    margin: 0 0.1rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 850px) {
+    text-align: center;
+    & * {
+      letter-spacing: 0.05rem;
+    }
+  }
+}
+
+.credit-gray {
+  color: #979797;
+}
+
+.credit-dark-font {
+  color: #08091e;
+
+  & a {
+    color: #08091e;
+
+    &:hover {
+      color: #08091e;
+    }
+  }
+}
+
+.credit-card-wrapper {
+  @media (max-width: 1200px) {
+    padding: 0 2rem;
+  }
+}
+
+@keyframes showSlow {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

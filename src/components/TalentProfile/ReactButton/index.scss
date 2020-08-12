@@ -1,0 +1,47 @@
+.react-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0;
+  width: 169px;
+  // margin: 0 0.8rem;
+  height: 44px;
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: 0 -2px 30px -4px rgba(8, 9, 30, 0.26);
+
+  & .nejma-spin {
+    & .ant-spin-dot-item {
+      background-color: white;
+    }
+  }
+
+  .icon {
+    width: 19px;
+
+    @media (max-width: 680px) {
+      width: 14px;
+    }
+  }
+
+  .label {
+    font-weight: bold;
+  }
+
+  top: 10;
+  img {
+    width: 0.8rem;
+    height: auto;
+  }
+
+  & > * {
+    margin: 0 0.3rem;
+  }
+
+  .hide {
+    @media (max-width: 680px) {
+      // justify-content: space-between;
+      display: none;
+    }
+  }
+}

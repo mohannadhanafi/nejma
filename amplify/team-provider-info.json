@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-nejmafe-dev-164250-authRole",
+            "UnauthRoleArn": "arn:aws:iam::004489737909:role/amplify-nejmafe-dev-164250-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::004489737909:role/amplify-nejmafe-dev-164250-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-nejmafe-dev-164250-deployment",
+            "UnauthRoleName": "amplify-nejmafe-dev-164250-unauthRole",
+            "StackName": "amplify-nejmafe-dev-164250",
+            "StackId": "arn:aws:cloudformation:us-east-1:004489737909:stack/amplify-nejmafe-dev-164250/9d12d140-b169-11ea-b4a9-126c97cb5bc1",
+            "AmplifyAppId": "d179rjai12ulls"
+        },
+        "categories": {
+            "auth": {
+                "nejmafe2231e7f3": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"198175004754758\",\"client_secret\":\"e9951ae393e6a2a3dd1e711618296468\"},{\"ProviderName\":\"Google\",\"client_id\":\"382623548389-1h0ovvd5nbd9ibbh95tj6qdetbtsa1ls.apps.googleusercontent.com\",\"client_secret\":\"Z3xMM3fqyJLAultFngU6y7Bt\"}]"
+                }
+            }
+        }
+    }
+}

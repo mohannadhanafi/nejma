@@ -1,0 +1,46 @@
+.policy-wrapper {
+  max-width: 1500px;
+  margin: auto;
+  padding: 70px 20px 170px 170px;
+  & span {
+    margin-top: 0;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1300px) {
+  .terms-wrapper {
+    padding: 70px 30px 10px;
+
+  }
+}
+
+.policy-wrapper .content {
+  max-width: 794px;
+  word-break: break-word;
+}
+
+.policy-wrapper .content .title {
+  color: #08091e;
+  font-size: 26px;
+  margin-bottom: 29px;
+  font-weight: 600;
+}
+
+.policy-wrapper .content .section-title {
+  font-size: 24px;
+  color: #08091e;
+  margin: 39px 0 11px;
+}
+
+.policy-wrapper .content .subtitle {
+  color: #08091e;
+  font-size: 24px;
+}
+
+.policy-wrapper .content p {
+  font-weight: 600;
+  color: #8f9094;
+  line-height: 24px;
+  margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>circular</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10-My-profile" transform="translate(-478.000000, -898.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-3-Copy" transform="translate(353.000000, 720.000000)">
+                <g id="circular" transform="translate(125.000000, 178.000000)">
+                    <path d="M64,0 C28.65425,0 0,28.65375 0,64 C0,99.34625 28.65425,128 64,128 C99.34575,128 128,99.34625 128,64 C128,28.65375 99.34575,0 64,0 Z M86.12,67.3925 L54.12,87.3925 C53.4725,87.79675 52.73625,88 52,88 C51.333,88 50.665,87.834 50.0605,87.498 C48.789,86.793 48,85.455 48,84 L48,44 C48,42.545 48.789,41.207 50.0605,40.502 C51.332,39.793 52.88675,39.836 54.12,40.6075 L86.12,60.6075 C87.289,61.34 88,62.62125 88,64 C88,65.37875 87.289,66.66025 86.12,67.3925 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

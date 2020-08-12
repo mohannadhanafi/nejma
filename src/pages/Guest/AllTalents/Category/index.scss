@@ -1,0 +1,99 @@
+.talents--category {
+  margin-bottom: 20px;
+  & .talents--category--heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    & h1 {
+      color: #000;
+      font-size: 40px;
+      font-weight: bold;
+
+      @media (max-width: 860px) {
+        font-size: 28px;
+      }
+      @media (max-width: 400px) {
+        font-size: 22px;
+      }
+    }
+    & .talents--category--heading__link {
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      & a {
+        color: #08091e;
+        text-decoration: none;
+      }
+    }
+  }
+
+  & .no-wrap {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    & .category-thumbnail-wrapper {
+      min-width: 177px;
+      padding-top: 6px;
+    }
+  }
+  & .talents--cards {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    // margin-right: -25px;
+    // margin-left: -25px;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(180px, 3fr));
+    // grid-column-gap: 1rem;
+
+    @media (max-width: 1440px) {
+      // justify-content: flex-start;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 3fr));
+    }
+
+    @media (max-width: 1000px) {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-items: center;
+    }
+    @media (max-width: 770px) {
+      display: flex;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-items: center;
+
+      // grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+
+      // justify-content: space-between;
+      .talents--category {
+        & .talents--category--heading {
+          & h1 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 400px) {
+      // justify-content: space-between;
+      .talents--category {
+        & .talents--category--heading {
+          & h1 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    @media (max-width: 620px) {
+      // justify-content: center;
+    }
+  }
+}
+
+.talents--category:last-child {
+  margin-bottom: 0 !important;
+}

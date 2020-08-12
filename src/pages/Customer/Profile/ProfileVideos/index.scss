@@ -1,0 +1,157 @@
+
+.profile--videos-shout {
+  margin: 50px auto 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  & .video-thumbnail-wrapper {
+    width: 377px;
+    height: 600px;
+
+    & .celebrity-details {
+      height: 115px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    max-width: unset;
+
+  }
+  @media (max-width: 1400px) {
+    max-width: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  @media (max-width: 990px) {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    & .video-thumbnail-wrapper {
+      width: auto;
+      height: auto;
+      border-radius: 20px;
+
+      & .video--content {
+        background-position-y: top;
+        border-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        & .video--content__overlay {
+
+          border-radius: 20px;
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+
+        }
+
+      }
+
+      & .celebrity-details {
+        border-radius: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+
+        & .celebrity-name {
+          font-size: 16px;
+        }
+
+        & .celebrity-occupation {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    & .video-thumbnail-wrapper {
+      height: 450px;
+      & .video--content {
+        height: 80%;
+      }
+    }
+  }
+
+  @media (max-width: 680px) {
+    & .video-thumbnail-wrapper {
+      height: 400px;
+      & .video--content {
+        height: 85%;
+
+      }
+    }
+  }
+  @media (max-width: 450px) {
+    grid-row-gap: 20px;
+    & .video-thumbnail-wrapper {
+      height: 250px;
+      border-radius: 20px;
+
+      & .video--content {
+        height: 75%;
+      }
+
+      & .celebrity-details {
+        & .celebrity-name {
+          font-size: 14px;
+        }
+
+        & .celebrity-occupation {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    grid-template-columns: 1fr;
+    & .video-thumbnail-wrapper {
+
+      height: 450px;
+
+      & .video--content {
+        height: 85%;
+
+      }
+    }
+  }
+}
+
+.no--videoes {
+  grid-template-columns: 1fr;
+}
+
+.no-video-container {
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+
+  & p {
+    margin: 20px 0;
+  }
+
+  & span {
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #000;
+    margin-top: 100px;
+    display: block;
+  }
+
+  @media (max-width: 850px) {
+    padding-top: 3rem;
+  }
+}

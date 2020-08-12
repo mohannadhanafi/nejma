@@ -1,0 +1,15 @@
+.form-divider {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1.5px solid rgba(200, 200, 200, 0.7);
+
+  line-height: 0.1em;
+  margin: 60px 0 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  & span {
+    background: #fff;
+    padding: 0 10px;
+  }
+}

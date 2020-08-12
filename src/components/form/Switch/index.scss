@@ -1,0 +1,70 @@
+.form-input {
+  // margin-top: 25px;
+  // position: relative;
+
+  & .form-label {
+    font-weight: 700;
+    color: #08091e;
+    line-height: 20px;
+    font-size: 14px;
+  }
+}
+.switch-options-container {
+  margin-top: 10px;
+  display: flex;
+  height: 60px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  & .switch {
+    width: fit-content;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: capitalize;
+    transition: background-color 200ms linear, color 200ms linear;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #fff;
+    &.selected {
+      background-color: #eb2a74;
+      color: white;
+    }
+  }
+}
+.switch--second--container {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 2px 20px 0 rgba(8, 9, 30, 0.2);
+  border-radius: 30px;
+  width: 100%;
+}
+
+.profile--switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7px !important;
+  border-radius: 60px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  @media (max-width: 750px) {
+    padding: 15px 70px !important;
+  }
+  @media (max-width: 550px) {
+    padding: 0 7px !important;
+  }
+}
+
+.switch--second--container--profile--switch {
+  border-radius: 60px !important;
+}
+
+.switch-options-container--profile--switch {
+  background: #fff;
+  border-radius: 60px;
+}

@@ -1,0 +1,40 @@
+.menu-item {
+    cursor: pointer;
+    height: 70px;
+    border-bottom: 2px solid #f2f0f0;
+    margin: 0 auto;
+    width: 370px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+  
+    & img {
+      height: 25px;
+    }
+  
+    & span {
+      color: #08091e;
+      margin: 0 30px;
+      font-size: 16px;
+    }
+  
+    &:last-child {
+      border-bottom: 0;
+      margin-top: 30px;
+      display: block;
+  
+      & .logout-btn {
+        background-color: white;
+        box-shadow: 0 2px 20px 0 rgba($color: #08091e, $alpha: 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0 !important;
+        & span {
+          margin: 0 10px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  

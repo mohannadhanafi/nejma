@@ -1,0 +1,112 @@
+.verify-wrapper {
+  padding: 70px 0 130px;
+  background-image: url("../../../assets/cropped-star-backgroud.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  font-family: inherit;
+
+  &.content--container{
+    width: 457px;
+    margin: 0 auto;
+  }
+  .ant-form{
+margin-top: 121px;
+
+
+  }
+
+  .form-input{
+margin-bottom: 35px;
+  }
+ 
+}
+
+.main.verify-wrapper {
+  padding: 80px 0;
+}
+
+
+.verify-form{
+  margin-top: 121px;
+ 
+}
+
+.verify-email-card-section-wrapper {
+  box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+  border-radius: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 20px 60px 0 rgba(8, 9, 30, 0.16);
+  border-radius: 60px;
+  background-color: #ffffff;
+  // display: flex;
+  // justify-content: center;
+  padding-top: 190px;
+  height: 755px;
+  max-width: 1213px;
+  // width: 40% !important;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+
+.verify-email-footer-link{
+  color: #08091E;
+  text-decoration: underline;
+  margin-top: 80px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+}
+.verify-btn {
+  margin-top: 35px !important;
+}
+.content--container {
+  // width: 350px;
+  text-align: center;
+}
+
+.verify-email-card-section-wrapper h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.verify-email-card-section-wrapper p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .verify-email-card-section-wrapper {
+    width: 95% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .verify-form {
+    width: 100%;
+  }
+
+  
+
+  .verify-wrapper{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 85px;
+    .content--container {
+      padding: auto 30px ;
+      text-align: center;
+    }
+  }
+  
+  .verify-email-card-section-wrapper {
+    width: 75%;
+    font-size: 12px;
+    padding: auto 30px;
+    max-width: 87%;
+  }
+
+.verify-email-footer-link{
+margin-top: 40px;}
+}

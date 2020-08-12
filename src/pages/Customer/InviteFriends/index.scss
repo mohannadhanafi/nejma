@@ -1,0 +1,69 @@
+.container-without-padding {
+  padding-bottom: 0;
+}
+
+.invite-friends-wrapper {
+  padding: 20px 0 130px;
+  background-image: url("../../../assets/cropped-star-backgroud.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 592px;
+  & .content--container1{
+    margin-left: 120px;
+    margin-right: 120px;
+
+  }
+}
+
+.main.invite-friends-wrapper {
+  padding: 80px 0;
+}
+.content--container1 {
+  width: 35rem;
+}
+
+.invite-friends-card-section-wrapper h1 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+.invite-friends-card-section-wrapper p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (max-width: 950px) {
+  .invite-friends-card-section-wrapper {
+    width: 100% !important;
+    & .content--container1{
+      margin: 0 auto !important;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .invite-friends-card-section-wrapper {
+    & .content--container1{
+      margin: 0 115px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .invite-friends-wrapper {
+    padding: 20px 0 130px;
+    width: 100%;
+  }
+  .verify-form {
+    width: 100%;
+  }
+  .content--container1 {
+    width: 100%;
+  }
+  .invite-friends-card-section-wrapper {
+    width: 95%;
+    font-size: 12px;
+  }
+}

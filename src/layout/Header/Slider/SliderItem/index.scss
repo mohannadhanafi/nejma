@@ -1,0 +1,13 @@
+.slider-item-container {
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  margin: 0 auto;
+
+  & .slider-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+}

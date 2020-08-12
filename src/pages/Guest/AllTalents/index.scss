@@ -1,0 +1,10 @@
+.no-talents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  font-weight: 700;
+  & h1 {
+    font-weight: 700;
+  }
+}

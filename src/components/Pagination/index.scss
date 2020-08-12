@@ -1,0 +1,29 @@
+.pagination {
+  text-align: center;
+  & .ant-pagination-item {
+    min-width: 25px;
+    & a {
+      color: #8F9094;
+      width: 75%;
+      font-weight: bold;
+    }
+  }
+  & .ant-pagination-item-active {
+    border: none;
+    & a {
+      color: #000;
+      font-weight: bold;
+      border-bottom: 1.5px solid #EB2A74;
+    }
+  }
+  & .ant-pagination-item:focus, .ant-pagination-item:hover {
+    & a {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+}
+
+.ant-pagination.mini .ant-pagination-prev, .ant-pagination.mini .ant-pagination-next {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    & > div:nth-child(odd) {
+      margin-top: 0.5rem;
+    }
+  }
+  .rate-value {
+    font-size: 40px;
+
+    color: #08091e;
+  }
+
+  img {
+    width: 0.7rem;
+    height: auto;
+  }
+  .reviews-value {
+    font-size: 17px;
+    color: #8f9094;
+  }
+}
